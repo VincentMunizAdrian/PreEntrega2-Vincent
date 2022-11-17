@@ -136,6 +136,8 @@ header {
     font-size: 2.2rem;
 }
 
+/* Grid Header 1200px */
+
 @media screen and (max-width: 1200px) {
     header {
         background-color: #134074;
@@ -154,8 +156,6 @@ header {
         grid-template-columns: 100%;
         grid-template-rows: 10rem auto 3rem;
     }
-    
-    /*Grid Header*/ 
 
     .gridHeader {
         grid-area: header;
@@ -226,6 +226,8 @@ header {
     }
 }
 
+/* Grid Header 768px */
+
 @media screen and (max-width: 768px) {
     header {
         background-color: #134074;
@@ -233,8 +235,6 @@ header {
         width: 100%;
         z-index: 1;
     }
-    
-    /*Grid Header*/ 
 
     .gridHeader {
         grid-area: header;
@@ -303,6 +303,8 @@ header {
     }
 }
 
+/* Grid Header 480px */
+
 @media screen and (max-width: 480px) {
     header {
         display: flex;
@@ -314,8 +316,6 @@ header {
         z-index: 1;
         padding: 0rem;
     }
-    
-    /*Grid Header*/
 
     .gridHeader {
         display: grid;
@@ -381,7 +381,7 @@ header {
     }
 }
 
-/*Grid Footer*/
+/* Grid Footer */
 
 .gridFooter {
     background-color: #134074;
@@ -432,6 +432,8 @@ header {
 .textoFoot2 p {
     font-size: 3rem;
 }
+
+/* Grid Footer 480px */
 
 @media screen and (max-width: 480px) {
     footer {
@@ -493,6 +495,7 @@ header {
 
 
 /* caracteristicas index */
+
 .gridIndex {
     grid-area: section;
     height: 100%;
@@ -538,6 +541,8 @@ header {
     height: 52rem;
     border-radius: 1rem;
 }
+
+/* Grid Index 1200px */
 
 @media screen and (max-width: 1200px) {
     .gridIndex {
@@ -595,6 +600,8 @@ header {
     }
 }
 
+/* Grid Index 768px */
+
 @media screen and (max-width: 768px) {
     .gridIndex {
         grid-area: section;
@@ -640,6 +647,8 @@ header {
         border-radius: 1rem;
     }
 }
+
+/* Grid Index 480px */
 
 @media screen and (max-width: 480px) {
     .gridIndex {
@@ -788,6 +797,8 @@ header {
     width: 100%;
 }
 
+/* Grid Historia 1200px */
+
 @media screen and (max-width: 1200px) {
     .gridHistoria {
         grid-area: section;
@@ -882,6 +893,8 @@ header {
         width: 100%;
     }
 }
+
+/* Grid Historia 768px */
 
 @media screen and (max-width: 768px) {
     .gridHistoria {
@@ -979,6 +992,8 @@ header {
         width: 100%;
     }
 }
+
+/* Grid Historia 480px */
 
 @media screen and (max-width: 480px) {
     .gridHistoria {
@@ -1084,10 +1099,6 @@ header {
     margin: 0 auto;
 }
 
-/*@media screen and (max-width: 1200px)
-@media screen and (max-width: 768px)
-@media screen and (max-width: 480px)*/
-
 .cajaTrabajos {
     text-align: center;
     margin-left: 26rem;
@@ -1134,26 +1145,6 @@ header {
     font-size: 5rem;
     margin-top: 3rem;
 }
-
-/*.galeria1 {
-    width: 600px;
-    height: 600px;
-}
-
-.galeria2 {
-    width: 600px;
-    height: 600px;
-}
-
-.galeria3 {
-    width: 600px;
-    height: 600px;
-}
-
-.galeria4 {
-    width: 600px;
-    height: 600px;
-}*/
 
 .video {
     width: 100rem;
@@ -1233,10 +1224,6 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-
-/*.imgM2, .imgM3, .imgM4, .imgM5 {
-    width: 40rem;
-}*/
 
 .tituloMaquinas {
     grid-area: tituloMaquinas;
@@ -1416,10 +1403,6 @@ h2 {
     grid-area: imgM5;
 }
 
-/*@media screen and (max-width: 1200px) {}
-@media screen and (max-width: 768px) {}
-@media screen and (max-width: 480px) {} */
-
 /* caracteristicas contacto */
 
 form {
@@ -1467,7 +1450,3 @@ form {
     bottom: 2rem;
     z-index: 1;
 }
-
-/*@media screen and (max-width: 1200px)
-@media screen and (max-width: 768px)
-@media screen and (max-width: 480px)*/
