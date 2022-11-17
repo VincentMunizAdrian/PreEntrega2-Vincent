@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
     
@@ -63,7 +65,7 @@
         <h1 class="tituloIndex">Bienvenidos</h1>
 
         <!-- se ira desarrollando un texto en cada <p>, por ahora solo sera lorem-->
-        <div class="textoIndex">
+        <div class="textoIndex" data-aos="zoom-in">
             <p>Lorem, ipsum dolor sit amet consectetur 
             adipisicing elit. Deserunt dolore possimus minus tenetur 
             rerum nam doloremque a rem minima itaque! 
@@ -81,7 +83,7 @@
             Asperiores, vel veritatis!</p>
         </div>
             
-        <div class="imgIndex">
+        <div data-aos="zoom-in" class="imgIndex">
                 <!-- Aca se van a agregar imagenes que vayan cambiando -->
                 <img src="img/camionIndex.jpeg" alt="Camion" class="camionIndex">
             </div>
@@ -107,6 +109,11 @@
             <p>Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>

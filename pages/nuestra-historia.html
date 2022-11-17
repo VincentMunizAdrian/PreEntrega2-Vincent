@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/styles.css">
     
     <title>Nuestra historia</title>
@@ -61,7 +63,7 @@
         <h1 class="tituloHistoria">Nuestra historia</h1>
         
         <div class="historiaVieja">
-            <div class="textoHistoriaVieja">
+            <div class="textoHistoriaVieja" data-aos="fade-right">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Dolor reprehenderit pariatur maxime, dolorum, itaque, 
                 quibusdam libero ducimus voluptatem quos cumque inventore 
@@ -73,17 +75,17 @@
                 nesciunt veritatis itaque sapiente illum voluptate expedita officiis amet</p>
             </div>
             
-            <div class="fotoVieja">
+            <div class="fotoVieja" data-aos="fade-left">
                 <img src="../img/camionViejo.jpg" alt="fotoVieja">
             </div>
         </div>
         
         <div class="historiaNueva">
-            <div class="fotoNueva">
+            <div class="fotoNueva" data-aos="fade-right">
                 <img src="../img/camionNueva.jpg" alt="fotoNueva">
             </div>
 
-            <div class="textoHistoriaNueva">
+            <div class="textoHistoriaNueva" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Dolor reprehenderit pariatur maxime, dolorum, itaque, 
                 quibusdam libero ducimus voluptatem quos cumque inventore 
@@ -117,5 +119,10 @@
             <p>Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>
