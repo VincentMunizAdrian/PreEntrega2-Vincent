@@ -1076,11 +1076,16 @@ header {
 
 /* caracteristicas trabajos */
 
+#carouselExampleControls {
+    width: 60rem;
+    margin: 0 auto;
+}
+
 /*@media screen and (max-width: 1200px)
 @media screen and (max-width: 768px)
 @media screen and (max-width: 480px)*/
 
-.cajaTrabajos {
+/*.cajaTrabajos {
     text-align: center;
     margin-left: 26rem;
 }
@@ -1125,6 +1130,25 @@ header {
 .galeriaMomentanea {
     font-size: 5rem;
     margin-top: 3rem;
+}*/
+.galeria1 {
+    width: 600px;
+    height: 600px;
+}
+
+.galeria2 {
+    width: 600px;
+    height: 600px;
+}
+
+.galeria3 {
+    width: 600px;
+    height: 600px;
+}
+
+.galeria4 {
+    width: 600px;
+    height: 600px;
 }
 
 .video {
